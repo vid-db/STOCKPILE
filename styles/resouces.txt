@@ -1,0 +1,4 @@
+Fonts and Icon(google fints)
+https://fonts.google.com/specimen/Montserrat?icon.set=Material+Icons&query=montse
+Chart(chart.js)
+https://www.chartjs.org/docs/latest/getting-started/
