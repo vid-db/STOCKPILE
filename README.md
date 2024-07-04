@@ -1,5 +1,9 @@
 # STOCKPILE
-
+<p>
+  A sales and inventory system for Sapang Palay Multi-Purpose Cooperative
+  <br> 
+  Teck Stack: JavaScript,PHP,HTML,CsSS,MSQL
+</p>
 <br> 
 <div align="center">
   <h3>Desktop View</h3>
