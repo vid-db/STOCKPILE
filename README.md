@@ -16,9 +16,9 @@
  
 <div align="center">
   <h3>Mobile View</h3>
-  <img src="https://github.com/vid-db/fb_clone/assets/153529283/f937af8a-a99c-47cc-a860-b8624abd6aa5"width="260"/>
-  &nbsp;&nbsp;
-  <img src="https://github.com/vid-db/fb_clone/assets/153529283/c6b5dd5a-4a07-41ef-96e1-3ca11133d800"width="260"/>
+  <img src="https://github.com/vid-db/fb_clone/assets/153529283/b0864592-54ab-457d-bb0c-fd8704199ab0"width="260"/>
   &nbsp;&nbsp;
   <img src="https://github.com/vid-db/fb_clone/assets/153529283/24d6083b-e069-4b5f-b31e-a174dfa905ac"width="260"/>
+  &nbsp;&nbsp;
+  <img src="https://github.com/vid-db/fb_clone/assets/153529283/f937af8a-a99c-47cc-a860-b8624abd6aa5"width="260"/>
 </div>
