@@ -2,9 +2,9 @@
 <p>
   A sales and inventory system for Sapang Palay Multi-Purpose Cooperative
   <br> 
-  Teck Stack: JavaScript,PHP,HTML,CsSS,MSQL
+  Teck Stack: JavaScript, PHP, HTML, CsSS, MSQL
 </p>
-<br> 
+
 <div align="center">
   <h3>Desktop View</h3>
   <img src="https://github.com/vid-db/fb_clone/assets/153529283/ebe0fd24-a156-43a4-9510-f0fc73f9c8773" width="800"/>
