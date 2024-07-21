@@ -1,6 +1,6 @@
 # STOCKPILE
 <p>
-  A sales and inventory system for Sapang Palay Multi-Purpose Cooperative(Capstone Project)
+  A sales and inventory system for Sapang Palay Multi-Purpose Cooperative.(Capstone Project)
   <br> 
   Teck Stack: JavaScript, PHP, HTML, CsSS, MSQL
 </p>
