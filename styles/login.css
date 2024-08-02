@@ -8,14 +8,11 @@
 body {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('../images/jeep.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+   url('../images/jeep.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 .container {
@@ -24,73 +21,58 @@ img {
   align-items: center;
   gap: 3rem;
   flex-flow: wrap;
-
-  width: 100%;
-  max-width: 1200px;
   margin: 4rem auto;
 }
 
 .content {
   z-index: 999;
   text-align: center;
-  padding: 20px 32px 20px;
-  width: 26%;
+  padding: 15px 32px 40px;
+  width: 25%;
   background: rgba(255, 255, 255, 0.3);
   box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
 }
 
-.heading {
-  color: rgb(122, 122, 123);
-  font-weight: bolder;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 60px;
-  text-align: center;
-  padding-top: 40px;
-  margin: 0px;
-  text-decoration: underline;
-}
-
 .content1 {
   z-index: 999;
-  text-align: center;
-  width: 30%;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  padding: 1.5rem;
   background: rgba(255, 255, 255, 0.3);
   box-shadow: -0.0625rem 0.25rem 1.75rem 0rem rgba(0, 0, 0, 0.75);
 }
 
-.content1 header {
-  font-size: 2rem;
-  font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
-}
+.heading {
+    color: rgb(122, 122, 123);
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 80px;
+  
+  }
 
 .aboutwho {
+  text-align: center;
   color: #FFF;
-  font-family: 'PT Serif';
-  font-size: 2rem;
-  font-style: normal;
+  margin: 0em 0em 0.4em;
+  font-size: 2.2rem;
   font-weight: 700;
-  line-height: normal;
-  padding-right: 3.75rem;
 }
 
 .message {
   color: #FFF;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.125rem;
-  text-align: left;
-  padding-left: 1.875rem;
   font-style: normal;
   line-height: normal;
 }
 
 .logo {
-  width: 100%;
-  margin-bottom: 1rem;
+  width: 90%;
+
 }
 
 .field {
@@ -168,53 +150,66 @@ img {
   margin: 0.625rem auto;
 }
 
-/* For large screens */
-@media screen and (min-width: 1200px) {
-  .aboutwho {
-    font-size: 2.8rem;
-  }
+@media only screen and (max-width: 1200px) {
 
-  .message {
-    font-size: 1.25rem;
-  }
-}
-
-/* For medium screens */
-@media screen and (max-width: 992px) {
   .content {
-    width: 45%; /* Adjust as needed */
+    width: 35%; 
   }
 
   .content1 {
-    width: 50%; /* Adjust as needed */
+    width: 35%; 
   }
-
-  .aboutwho {
-    font-size: 2.5rem;
-  }
-
-  .message {
-    font-size: 1.1rem;
+  .heading{
+    font-size: 5vw;
   }
 }
+@media only screen and (max-width: 900px) {
 
-/* For small screens (mobile) */
-@media screen and (max-width: 768px) {
+    .content {
+      width: 45%; 
+    }
+  
+    .content1 {
+      width: 45%;
+    }
+    .heading{
+        font-size: 7vw;
+      }
+
+  }
+
+@media only screen and (max-width: 600px) {
+    body{
+   
+        height: 100%;
+    }
+
+    .container{
+        flex-direction: column;
+        margin: 2rem auto;
+    }
+
   .content {
-    width: 80%; /* Adjust as needed */
+    width: 80%;
   }
 
   .content1 {
-    width: 80%; /* Adjust as needed */
+    width: 80%; 
+  }
+  .heading{
+    font-size: 10vw;
+    width: 80%;
+    margin: 0px auto  ;
+    padding-top: 20px;
   }
 
   .aboutwho {
     font-size: 2rem;
-    padding-right: 0; /* Adjust as needed */
+    padding-right: 0; 
   }
 
   .message {
     font-size: 1rem;
-    padding-left: 10px; /* Adjust as needed */
+    padding-left: 10px; 
   }
 }

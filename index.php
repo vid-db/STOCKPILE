@@ -17,11 +17,9 @@
 </head>
 
 <body>
-  <h1 class="heading">STOCKPILE NAVIGATION</h1>
-  <div class="bg-img">
-
-
+  <h1 class="heading">STOCKPILE NAVIGATOR</h1>
     <div class="container">
+
       <div class="content1">
         <p class="aboutwho">Who we are?</p>
         <p class="message">
@@ -64,8 +62,9 @@
           </div>
         </form>
       </div>
+      
     </div>
-  </div>
+
   <script src="script/showpass.js"></script>
 </body>
 
